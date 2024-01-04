@@ -18,7 +18,7 @@ for num in range(0,100,3):
         continue # Used to skip this iteration
     print (num, end='\n')
 
-# While Loop and Break usage
+# While Loop and Break usage (yes, its a portuguese example...)
 while True:
     opcao = (int(input('[1] -> SACAR\n[2] -> EXTRATO\n[3] -> SAIR\n')))
     if opcao == 1:
@@ -30,5 +30,3 @@ while True:
         break # Used to break WHILE LOOP
     else: 
         print('Digite uma das três opções informadas\n')
-
-
